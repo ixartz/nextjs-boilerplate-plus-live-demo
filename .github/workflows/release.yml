@@ -1,0 +1,44 @@
+name: Release
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types:
+      - completed
+    branches:
+      - main
+
+jobs:
+  release:
+    strategy:
+      matrix:
+        node-version: [24.x]
+
+    name: Create a new release
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Bun environment
+        uses: ./.github/actions/setup-project
+
+      # Use Node.js 22 explicitly because Bun is detected as Node.js 20 during release.
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node-version }}
+          package-manager-cache: false # Explicitly disable caching if you don't have a lockfile
+
+      - name: Release
+        run: bunx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

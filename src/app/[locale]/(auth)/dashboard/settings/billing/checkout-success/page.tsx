@@ -1,0 +1,43 @@
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { buttonVariants } from '@/components/ui/buttonVariants';
+import { PageMessage } from '@/features/dashboard/PageMessage';
+import { Link } from '@/libs/I18nNavigation';
+
+export default async function CheckoutSuccessPage(props: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await props.params;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'CheckoutSuccessPage',
+  });
+
+  return (
+    <PageMessage
+      icon={(
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M0 0h24v24H0z" stroke="none" />
+          <circle cx="12" cy="12" r="9" />
+          <path d="M9 12l2 2 4-4" />
+        </svg>
+      )}
+      title={t('message_state_title')}
+      description={t('message_state_description')}
+      button={(
+        <Link
+          className={buttonVariants({ size: 'lg' })}
+          href="/dashboard/settings/billing"
+        >
+          {t('message_state_button')}
+        </Link>
+      )}
+    />
+  );
+}

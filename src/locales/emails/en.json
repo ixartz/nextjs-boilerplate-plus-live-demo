@@ -1,0 +1,39 @@
+{
+  "VerifyNewEmailOtpEmail": {
+    "subject": "Confirm your new email",
+    "preview": "Use this code to confirm your new email address. Don't share it.",
+    "subheading": "Email change code",
+    "instructions": "To confirm your new email, enter the confirmation code below:",
+    "expires_in": "This code expires in {minutes} minutes.",
+    "security_notice": "To protect your account, do not share this code.",
+    "ignore_notice": "If you didn't request this email change, you can ignore this email."
+  },
+  "ForgotPasswordOtpEmail": {
+    "subject": "Reset your password",
+    "preview": "Use the code in this email to reset your password. Don't share it.",
+    "subheading": "Password reset code",
+    "instructions": "To reset your password, enter the reset code below:",
+    "expires_in": "This code expires in {minutes} minutes.",
+    "security_notice": "To protect your account, do not share this code.",
+    "ignore_notice": "If you didn't request this password reset, you can ignore this email."
+  },
+  "VerifySignupOtpEmail": {
+    "subject": "Verify your email address",
+    "preview": "Use the code in this email to verify your email address. Don't share it.",
+    "subheading": "Verification code",
+    "instructions": "To verify your email, enter the verification code below:",
+    "expires_in": "This code expires in {minutes} minutes.",
+    "security_notice": "To protect your account, do not share this code.",
+    "ignore_notice": "If you didn't request this verification code, you can ignore this email."
+  },
+  "ExistingUserSignupEmail": {
+    "subject": "You already have an account",
+    "preview": "An account with this email already exists. Sign in to access it.",
+    "subheading": "Existing account",
+    "instructions": "You (or someone else) tried to sign up with this email address, but you already have an account. To sign in, click the button below:",
+    "button_label": "Sign in",
+    "link_fallback": "If the button doesn't work, <link>click here</link> to open it in your browser.",
+    "reset_notice": "If you forgot your password, you can reset it from the sign-in page.",
+    "ignore_notice": "If this wasn't you, you can ignore this email. No changes were made to your account."
+  }
+}

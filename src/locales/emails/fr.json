@@ -1,0 +1,39 @@
+{
+  "VerifyNewEmailOtpEmail": {
+    "subject": "Confirmez votre nouvel email",
+    "preview": "Utilisez ce code pour confirmer votre nouvel email. Ne le partagez pas.",
+    "subheading": "Code de changement d'email",
+    "instructions": "Pour confirmer votre nouvel email, saisissez le code de confirmation ci-dessous :",
+    "expires_in": "Ce code expire dans {minutes} minutes.",
+    "security_notice": "Pour protéger votre compte, ne partagez pas ce code.",
+    "ignore_notice": "Si vous n'avez pas demandé ce changement d'email, vous pouvez ignorer cet email."
+  },
+  "ForgotPasswordOtpEmail": {
+    "subject": "Réinitialisez votre mot de passe",
+    "preview": "Utilisez le code de cet email pour réinitialiser votre mot de passe. Ne le partagez pas.",
+    "subheading": "Code de réinitialisation",
+    "instructions": "Pour réinitialiser votre mot de passe, saisissez le code de réinitialisation ci-dessous :",
+    "expires_in": "Ce code expire dans {minutes} minutes.",
+    "security_notice": "Pour protéger votre compte, ne partagez pas ce code.",
+    "ignore_notice": "Si vous n'avez pas demandé cette réinitialisation de mot de passe, vous pouvez ignorer cet email."
+  },
+  "VerifySignupOtpEmail": {
+    "subject": "Vérifiez votre email",
+    "preview": "Utilisez le code de cet email pour vérifier votre email. Ne le partagez pas.",
+    "subheading": "Code de vérification",
+    "instructions": "Pour vérifier votre email, saisissez le code de vérification ci-dessous :",
+    "expires_in": "Ce code expire dans {minutes} minutes.",
+    "security_notice": "Pour protéger votre compte, ne partagez pas ce code.",
+    "ignore_notice": "Si vous n'avez pas demandé ce code de vérification, vous pouvez ignorer cet email."
+  },
+  "ExistingUserSignupEmail": {
+    "subject": "Vous avez déjà un compte",
+    "preview": "Un compte avec cet email existe déjà. Connectez-vous pour y accéder.",
+    "subheading": "Compte existant",
+    "instructions": "Vous (ou quelqu'un d'autre) avez essayé de créer un compte avec cette adresse email, mais vous avez déjà un compte. Pour vous connecter, cliquez sur le bouton ci-dessous :",
+    "button_label": "Se connecter",
+    "link_fallback": "Si le bouton ne fonctionne pas, <link>cliquez ici</link> pour l'ouvrir dans votre navigateur.",
+    "reset_notice": "Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser depuis la page de connexion.",
+    "ignore_notice": "Si ce n'était pas vous, vous pouvez ignorer cet email. Aucune modification n'a été apportée à votre compte."
+  }
+}

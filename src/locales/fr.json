@@ -1,0 +1,533 @@
+{
+  "Index": {
+    "meta_title": "{name}: Boilerplate Next.js pour lancer vos produits plus rapidement",
+    "meta_description": "Un modèle de landing page gratuit et open-source pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
+  },
+  "Navbar": {
+    "sign_in": "Se connecter",
+    "sign_up": "S'inscrire",
+    "product": "Produit",
+    "pricing": "Tarifs",
+    "docs": "Docs",
+    "blog": "Blog",
+    "about": "À propos"
+  },
+  "LocaleSwitcher": {
+    "button_label": "Changer de langue"
+  },
+  "ThemeSwitcher": {
+    "button_label": "Changer de thème",
+    "theme_light_label": "Clair",
+    "theme_dark_label": "Sombre",
+    "theme_system_label": "Système"
+  },
+  "Hero": {
+    "follow_twitter": "Suivez @Ixartz sur Twitter",
+    "title": "Le <important>modèle SaaS</important> parfait pour développer et faire croître votre entreprise facilement.",
+    "description": "Un modèle de landing page gratuit et open-source pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS.",
+    "primary_button": "Commencer",
+    "secondary_button": "Acheter Next.js SaaS Boilerplate"
+  },
+  "Features": {
+    "section_subtitle": "Fonctionnalités",
+    "section_title": "Exploitez tout le potentiel du modèle SaaS",
+    "section_description": "Un modèle de landing page gratuit et open-source pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS.",
+    "feature1_title": "Next.js",
+    "feature2_title": "React",
+    "feature3_title": "Tailwind CSS",
+    "feature4_title": "TypeScript",
+    "feature5_title": "Shadcn UI",
+    "feature6_title": "ESLint",
+    "feature_description": "Un modèle de landing page gratuit et open-source pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
+  },
+  "Pricing": {
+    "section_subtitle": "Tarifs",
+    "section_title": "Exploitez tout le potentiel du modèle SaaS",
+    "section_description": "Un modèle de landing page gratuit et open-source pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS.",
+    "button_text": "Commencer"
+  },
+  "PricingPlans": {
+    "free_plan_name": "Gratuit",
+    "premium_plan_name": "Premium",
+    "enterprise_plan_name": "Enterprise"
+  },
+  "PricingCard": {
+    "free_plan_description": "Pour les particuliers",
+    "premium_plan_description": "Pour les petites équipes",
+    "enterprise_plan_description": "Pour les leaders du secteur",
+    "plan_price": "${price}",
+    "plan_interval_month": "/ mois",
+    "plan_interval_year": "/ an"
+  },
+  "PricingFeatures": {
+    "feature_website": "Jusqu'à {number} sites web",
+    "feature_storage": "{number} Go de stockage",
+    "feature_transfer": "{number} To de transfert",
+    "feature_email_support": "Support par email"
+  },
+  "FAQ": {
+    "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
+  },
+  "CTA": {
+    "title": "Êtes-vous prêt ?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "button_text": "Acheter Next.js SaaS Boilerplate"
+  },
+  "Footer": {
+    "product": "Produit",
+    "docs": "Docs",
+    "blog": "Blog",
+    "community": "Communauté",
+    "company": "Entreprise",
+    "terms_of_service": "Conditions d'utilisation",
+    "privacy_policy": "Politique de confidentialité",
+    "footer_text": "© {year} {name}. Fait avec <author></author>."
+  },
+  "SignInPage": {
+    "meta_title": "Se connecter",
+    "meta_description": "Connectez-vous en toute sécurité pour accéder à votre compte et tableau de bord.",
+    "card_title": "Bienvenue",
+    "card_description": "Connectez-vous pour accéder à votre compte",
+    "card_footer": "Pas encore de compte ? <link>S'inscrire</link>",
+    "or_continue_with": "Ou continuer avec"
+  },
+  "SignInForm": {
+    "email_label": "Email",
+    "email_placeholder": "Saisissez votre adresse email",
+    "email_error_message": "Saisissez une adresse email valide",
+    "password_label": "Mot de passe",
+    "password_placeholder": "Saisissez votre mot de passe",
+    "password_error_message": "Le mot de passe est requis",
+    "submit_button": "Se connecter",
+    "forgot_password": "Mot de passe oublié ?"
+  },
+  "BetterAuthError": {
+    "UNKNOWN_ERROR": "Une erreur s'est produite",
+    "TOO_MANY_REQUESTS": "Vous avez envoyé trop de requêtes",
+    "BAD_REQUEST": "Certaines informations sont invalides",
+    "UNAUTHORIZED": "Vous n'avez pas la permission d'effectuer cette action",
+    "INVALID_ROLE": "Ce rôle n'existe pas",
+    "USER_NOT_FOUND": "Aucun compte trouvé avec cet email",
+    "FAILED_TO_CREATE_USER": "Impossible de créer votre compte",
+    "FAILED_TO_CREATE_SESSION": "Impossible de vous connecter",
+    "FAILED_TO_UPDATE_USER": "Impossible de mettre à jour votre profil",
+    "FAILED_TO_GET_SESSION": "Impossible de vérifier votre session",
+    "INVALID_PASSWORD": "Mot de passe incorrect",
+    "DISPOSABLE_EMAIL": "Les adresses email jetables ne peuvent pas être utilisées",
+    "INVALID_EMAIL": "Saisissez une adresse email valide",
+    "INVALID_EMAIL_OR_PASSWORD": "Email ou mot de passe incorrect",
+    "SOCIAL_ACCOUNT_ALREADY_LINKED": "Ce compte social est déjà lié à un autre compte",
+    "PROVIDER_NOT_FOUND": "Cette méthode de connexion n'est pas disponible",
+    "INVALID_TOKEN": "Ce lien est invalide ou expiré",
+    "ID_TOKEN_NOT_SUPPORTED": "Cette méthode de connexion n'est pas supportée",
+    "FAILED_TO_GET_USER_INFO": "Impossible de charger les détails de votre compte",
+    "USER_EMAIL_NOT_FOUND": "Aucun email trouvé pour ce compte",
+    "EMAIL_NOT_VERIFIED": "Email non vérifié",
+    "EMAIL_IS_THE_SAME": "Saisissez une adresse email différente",
+    "COULDNT_UPDATE_YOUR_EMAIL": "Impossible de mettre à jour votre email",
+    "VALIDATION_ERROR": "Données de formulaire invalides",
+    "PASSWORD_TOO_SHORT": "Le mot de passe est trop court",
+    "PASSWORD_TOO_LONG": "Le mot de passe est trop long",
+    "USER_ALREADY_EXISTS": "L'utilisateur existe déjà",
+    "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "Un compte avec cet email existe déjà",
+    "EMAIL_CAN_NOT_BE_UPDATED": "Votre email ne peut pas être mis à jour pour le moment",
+    "CREDENTIAL_ACCOUNT_NOT_FOUND": "Aucun compte avec mot de passe trouvé pour cet email",
+    "SESSION_EXPIRED": "Votre session a expiré",
+    "FAILED_TO_UNLINK_LAST_ACCOUNT": "Vous ne pouvez pas dissocier votre unique méthode de connexion",
+    "ACCOUNT_NOT_FOUND": "Impossible de trouver votre compte",
+    "USER_ALREADY_HAS_PASSWORD": "Ce compte possède déjà un mot de passe",
+    "OTP_EXPIRED": "Votre code de vérification a expiré",
+    "INVALID_OTP": "Code de vérification incorrect",
+    "TOO_MANY_ATTEMPTS": "Code invalidé suite à trop de tentatives",
+    "OTP_NOT_ENABLED": "Les mots de passe à usage unique ne sont pas activés",
+    "OTP_HAS_EXPIRED": "Votre mot de passe à usage unique a expiré",
+    "TOTP_NOT_ENABLED": "L'application d'authentification n'est pas configurée",
+    "TWO_FACTOR_NOT_ENABLED": "L'authentification à deux facteurs n'est pas activée",
+    "BACKUP_CODES_NOT_ENABLED": "Les codes de secours ne sont pas activés",
+    "INVALID_BACKUP_CODE": "Code de secours incorrect",
+    "INVALID_CODE": "Code incorrect",
+    "TOO_MANY_ATTEMPTS_REQUEST_NEW_CODE": "Code invalidé suite à trop de tentatives",
+    "INVALID_TWO_FACTOR_COOKIE": "Cookie d'authentification à deux facteurs invalide",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_NEW_ORGANIZATION": "Vous ne pouvez pas créer de nouvelle organisation",
+    "YOU_HAVE_REACHED_THE_MAXIMUM_NUMBER_OF_ORGANIZATIONS": "Vous avez atteint le nombre maximum d'organisations",
+    "ORGANIZATION_ALREADY_EXISTS": "L'organisation existe déjà",
+    "ORGANIZATION_SLUG_ALREADY_TAKEN": "Le slug de l'organisation est déjà utilisé",
+    "ORGANIZATION_NOT_FOUND": "Organisation introuvable",
+    "USER_IS_NOT_A_MEMBER_OF_THE_ORGANIZATION": "Vous n'êtes pas membre de l'organisation",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_THIS_ORGANIZATION": "Vous ne pouvez pas modifier cette organisation",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_THIS_ORGANIZATION": "Vous ne pouvez pas supprimer cette organisation",
+    "NO_ACTIVE_ORGANIZATION": "Aucune organisation active",
+    "USER_IS_ALREADY_A_MEMBER_OF_THIS_ORGANIZATION": "Vous êtes déjà membre de cette organisation",
+    "MEMBER_NOT_FOUND": "Membre introuvable",
+    "ROLE_NOT_FOUND": "Rôle introuvable",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_NEW_TEAM": "Vous ne pouvez pas créer de nouvelle équipe",
+    "TEAM_ALREADY_EXISTS": "L'équipe existe déjà",
+    "TEAM_NOT_FOUND": "Équipe introuvable",
+    "YOU_CANNOT_LEAVE_THE_ORGANIZATION_AS_THE_ONLY_OWNER": "Vous ne pouvez pas quitter l'organisation en tant que propriétaire",
+    "YOU_CANNOT_LEAVE_THE_ORGANIZATION_WITHOUT_AN_OWNER": "Vous ne pouvez pas quitter l'organisation sans propriétaire",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_THIS_MEMBER": "Vous ne pouvez pas supprimer ce membre",
+    "YOU_ARE_NOT_ALLOWED_TO_INVITE_USERS_TO_THIS_ORGANIZATION": "Vous ne pouvez pas inviter d'utilisateurs dans cette organisation",
+    "USER_IS_ALREADY_INVITED_TO_THIS_ORGANIZATION": "Cet utilisateur est déjà invité dans cette organisation",
+    "INVITATION_NOT_FOUND": "Invitation introuvable",
+    "YOU_ARE_NOT_THE_RECIPIENT_OF_THE_INVITATION": "Vous n'êtes pas le destinataire de cette invitation",
+    "EMAIL_VERIFICATION_REQUIRED_BEFORE_ACCEPTING_OR_REJECTING_INVITATION": "Vérifiez votre email avant d'accepter ou de refuser cette invitation",
+    "OWNER_ROLE_CANNOT_BE_ASSIGNED": "Vous ne pouvez pas attribuer le rôle propriétaire",
+    "YOU_ARE_NOT_ALLOWED_TO_CANCEL_THIS_INVITATION": "Vous ne pouvez pas annuler cette invitation",
+    "INVITER_IS_NO_LONGER_A_MEMBER_OF_THE_ORGANIZATION": "L'auteur de l'invitation n'est plus membre de l'organisation",
+    "YOU_ARE_NOT_ALLOWED_TO_INVITE_USER_WITH_THIS_ROLE": "Vous ne pouvez pas inviter un utilisateur avec ce rôle",
+    "FAILED_TO_RETRIEVE_INVITATION": "Impossible de récupérer l'invitation",
+    "YOU_HAVE_REACHED_THE_MAXIMUM_NUMBER_OF_TEAMS": "Vous avez atteint le nombre maximum d'équipes",
+    "UNABLE_TO_REMOVE_LAST_TEAM": "Vous ne pouvez pas supprimer la dernière équipe",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_THIS_MEMBER": "Vous ne pouvez pas modifier ce membre",
+    "ORGANIZATION_MEMBERSHIP_LIMIT_REACHED": "Limite de membres de l'organisation atteinte",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_TEAMS_IN_THIS_ORGANIZATION": "Vous ne pouvez pas créer d'équipes dans cette organisation",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_TEAMS_IN_THIS_ORGANIZATION": "Vous ne pouvez pas supprimer d'équipes dans cette organisation",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_THIS_TEAM": "Vous ne pouvez pas modifier cette équipe",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_THIS_TEAM": "Vous ne pouvez pas supprimer cette équipe",
+    "INVITATION_LIMIT_REACHED": "Limite d'invitations atteinte",
+    "TEAM_MEMBER_LIMIT_REACHED": "Limite de membres d'équipe atteinte",
+    "USER_IS_NOT_A_MEMBER_OF_THE_TEAM": "Vous n'êtes pas membre de l'équipe",
+    "YOU_CAN_NOT_ACCESS_THE_MEMBERS_OF_THIS_TEAM": "Vous ne pouvez pas lister les membres de cette équipe",
+    "YOU_DO_NOT_HAVE_AN_ACTIVE_TEAM": "Vous n'avez pas d'équipe active",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_NEW_TEAM_MEMBER": "Vous ne pouvez pas créer de nouveau membre d'équipe",
+    "YOU_ARE_NOT_ALLOWED_TO_REMOVE_A_TEAM_MEMBER": "Vous ne pouvez pas retirer un membre d'équipe",
+    "YOU_ARE_NOT_ALLOWED_TO_ACCESS_THIS_ORGANIZATION": "Vous ne pouvez pas accéder à cette organisation en tant que propriétaire",
+    "YOU_ARE_NOT_A_MEMBER_OF_THIS_ORGANIZATION": "Vous n'êtes pas membre de cette organisation",
+    "MISSING_AC_INSTANCE": "Le contrôle d'accès dynamique nécessite une instance AC configurée",
+    "YOU_MUST_BE_IN_AN_ORGANIZATION_TO_CREATE_A_ROLE": "Vous devez être dans une organisation pour créer un rôle",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_ROLE": "Vous ne pouvez pas créer de rôle",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_A_ROLE": "Vous ne pouvez pas modifier de rôle",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_A_ROLE": "Vous ne pouvez pas supprimer de rôle",
+    "YOU_ARE_NOT_ALLOWED_TO_READ_A_ROLE": "Vous ne pouvez pas voir ce rôle",
+    "YOU_ARE_NOT_ALLOWED_TO_LIST_A_ROLE": "Vous ne pouvez pas lister les rôles",
+    "YOU_ARE_NOT_ALLOWED_TO_GET_A_ROLE": "Vous ne pouvez pas obtenir ce rôle",
+    "TOO_MANY_ROLES": "Cette organisation possède trop de rôles",
+    "INVALID_RESOURCE": "La permission fournie inclut une ressource invalide",
+    "ROLE_NAME_IS_ALREADY_TAKEN": "Ce nom de rôle est déjà utilisé",
+    "CANNOT_DELETE_A_PRE_DEFINED_ROLE": "Vous ne pouvez pas supprimer un rôle prédéfini",
+    "SUBSCRIPTION_NOT_FOUND": "Abonnement introuvable",
+    "SUBSCRIPTION_PLAN_NOT_FOUND": "Forfait introuvable",
+    "ALREADY_SUBSCRIBED_PLAN": "Vous êtes déjà sur ce forfait",
+    "UNABLE_TO_CREATE_CUSTOMER": "Impossible de créer le profil client",
+    "FAILED_TO_FETCH_PLANS": "Impossible de charger les forfaits",
+    "EMAIL_VERIFICATION_REQUIRED": "Vérifiez votre email avant de vous abonner à un forfait",
+    "SUBSCRIPTION_NOT_ACTIVE": "Votre abonnement est inactif",
+    "SUBSCRIPTION_NOT_SCHEDULED_FOR_CANCELLATION": "Aucune annulation de l'abonnement n'est programmée",
+    "ORGANIZATION_HAS_ACTIVE_SUBSCRIPTION": "Cette organisation a un abonnement actif"
+  },
+  "SignUpPage": {
+    "meta_title": "SaaS Template: S'inscrire",
+    "meta_description": "Créez votre compte pour accéder à votre tableau de bord.",
+    "card_title": "Créer un compte",
+    "card_description": "Inscrivez-vous pour commencer",
+    "card_footer": "Vous avez déjà un compte ? <link>Se connecter</link>",
+    "or_continue_with": "Ou continuer avec"
+  },
+  "SignUpForm": {
+    "name_label": "Nom",
+    "name_placeholder": "Saisissez votre nom",
+    "name_error_message": "Le nom est requis",
+    "email_label": "Email",
+    "email_placeholder": "Saisissez votre adresse email",
+    "email_error_message": "Saisissez une adresse email valide",
+    "password_label": "Mot de passe",
+    "password_placeholder": "Saisissez votre mot de passe",
+    "password_error_message": "Le mot de passe doit contenir au moins {minLength} caractères",
+    "submit_button": "Créer un compte"
+  },
+  "VerifyEmailPage": {
+    "meta_title": "SaaS Template: Vérifier l'email",
+    "meta_description": "Vérifiez votre adresse email pour finaliser la configuration de votre compte.",
+    "card_title": "Vérifiez votre email",
+    "card_description": "Saisissez le code à {otpLength} caractères envoyé à votre email\n<email></email>"
+  },
+  "VerifyEmailFooter": {
+    "card_footer": "Vous n'avez pas reçu le code ? <button>Renvoyer</button>",
+    "resend_success_toast": "Code de vérification renvoyé avec succès"
+  },
+  "VerifyEmailForm": {
+    "otp_input_aria_label": "Saisissez le code de vérification",
+    "otp_error_message": "Saisissez le code à {otpLength} caractères",
+    "submit_button": "Vérifier l'email"
+  },
+  "ForgotPasswordPage": {
+    "meta_title": "Mot de passe oublié",
+    "meta_description": "Réinitialisez votre mot de passe pour récupérer l'accès à votre compte.",
+    "card_title": "Mot de passe oublié ?",
+    "card_description": "Recevez un code pour réinitialiser votre mot de passe",
+    "card_footer": "Vous vous souvenez de votre mot de passe ? <link>Se connecter</link>"
+  },
+  "ForgotPasswordForm": {
+    "email_label": "Email",
+    "email_placeholder": "Saisissez votre adresse email",
+    "email_error_message": "Saisissez une adresse email valide",
+    "submit_button": "Envoyer le code de réinitialisation"
+  },
+  "ResetPasswordPage": {
+    "meta_title": "Réinitialiser le mot de passe",
+    "meta_description": "Créez un nouveau mot de passe en utilisant le code de réinitialisation envoyé à votre email.",
+    "card_title": "Réinitialisez votre mot de passe",
+    "card_description": "Saisissez le code de réinitialisation à {otpLength} caractères envoyé à votre email\n<email></email>",
+    "card_footer": "Vous n'avez pas reçu le code ? <link>Renvoyer</link>"
+  },
+  "ResetPasswordForm": {
+    "otp_error_message": "Saisissez le code de réinitialisation à {otpLength} caractères",
+    "email_label": "Email",
+    "password_label": "Nouveau mot de passe",
+    "password_placeholder": "Saisissez votre nouveau mot de passe",
+    "password_error_message": "Le mot de passe doit contenir au moins {minLength} caractères",
+    "submit_button": "Réinitialiser le mot de passe",
+    "success_toast": "Votre mot de passe a été réinitialisé"
+  },
+  "MfaPage": {
+    "meta_title": "Authentification à deux facteurs",
+    "meta_description": "Saisissez votre code d'authentification pour continuer.",
+    "card_title": "Authentification à deux facteurs",
+    "card_description": "Saisissez le code à {totpLength} chiffres de votre application d'authentification",
+    "card_footer": "Utiliser une autre méthode ? <link>Code de secours</link>"
+  },
+  "MfaTotpForm": {
+    "totp_error_message": "Saisissez le code à {totpLength} chiffres",
+    "submit_button": "Vérifier le code"
+  },
+  "MfaBackupPage": {
+    "meta_title": "Code de secours",
+    "meta_description": "Utilisez un code de secours pour continuer.",
+    "card_title": "Utiliser un code de secours",
+    "card_description": "Saisissez l'un de vos codes de secours sauvegardés",
+    "card_footer": "Utiliser une autre méthode ? <link>Application d'authentification</link>"
+  },
+  "MfaBackupForm": {
+    "code_label": "Code de secours",
+    "code_placeholder": "Saisissez un code de secours",
+    "code_error_message": "Le code de secours est requis",
+    "submit_button": "Vérifier le code"
+  },
+  "DashboardLayout": {
+    "meta_title": "Tableau de bord du modèle SaaS",
+    "meta_description": "Surveillez l’activité et gérez vos tâches, votre facturation et vos paramètres depuis un tableau de bord sécurisé."
+  },
+  "DashboardIndexPage": {
+    "message_state_title": "Commençons",
+    "message_state_description": "Personnalisez cette page en modifiant le fichier dans <code>dashboard/page.tsx</code>.",
+    "message_state_button": "Acheter Next.js SaaS Boilerplate"
+  },
+  "AppSidebar": {
+    "main_section": "Navigation principale",
+    "home": "Accueil",
+    "todos": "Tâches",
+    "billing": "Facturation",
+    "support": "Support",
+    "feedback": "Commentaires"
+  },
+  "UserMenu": {
+    "manage_account": "Paramètres du compte",
+    "logout": "Se déconnecter"
+  },
+  "SocialAuthButtons": {
+    "continue_with": "Continuer avec {provider}",
+    "google": "Google",
+    "github": "GitHub"
+  },
+  "EditTodoPage": {
+    "title_bar": "Modifier la tâche",
+    "title_bar_description": "Vérifiez et modifiez cette tâche"
+  },
+  "AddTodoPage": {
+    "title_bar": "Ajouter une tâche",
+    "title_bar_description": "Saisissez les détails pour créer une tâche"
+  },
+  "AddTodoForm": {
+    "success_toast": "Tâche créée avec succès",
+    "submit_button": "Créer la tâche"
+  },
+  "EditTodoForm": {
+    "success_toast": "Tâche mise à jour avec succès",
+    "submit_button": "Enregistrer les modifications"
+  },
+  "TodoForm": {
+    "title_label": "Titre",
+    "title_description": "Saisissez un titre court et clair",
+    "title_placeholder": "ex : Payer le loyer",
+    "title_error_message": "Le titre est requis",
+    "message_title": "Message",
+    "message_description": "Saisissez le contexte ou les étapes pour accomplir cette tâche",
+    "message_placeholder": "ex : Transférer les fonds avant le 3",
+    "message_error_message": "Le message est requis"
+  },
+  "SettingsLayout": {
+    "account_section_label": "Compte",
+    "profile_item": "Profil",
+    "email_item": "Email",
+    "security_section_label": "Sécurité",
+    "password_item": "Mot de passe",
+    "mfa_item": "Double authentification",
+    "billing_item": "Facturation"
+  },
+  "ProfileSettingsPage": {
+    "section_title": "Profil",
+    "section_description": "Consultez votre profil",
+    "email_label": "Email",
+    "email_description": "Votre email est utilisé pour la connexion et les notifications. Pour modifier votre email, consultez les <link>paramètres email</link>."
+  },
+  "PasswordSettingsPage": {
+    "section_title": "Mot de passe",
+    "section_description": "Modifiez votre mot de passe",
+    "security_tip_title": "Conseil de sécurité",
+    "security_tip_description": "Utilisez un mot de passe unique que vous n'utilisez pas pour d'autres comptes. Envisagez d'utiliser un gestionnaire de mots de passe pour générer et stocker des mots de passe robustes."
+  },
+  "ChangePasswordForm": {
+    "current_password_label": "Mot de passe actuel",
+    "current_password_placeholder": "Saisissez votre mot de passe actuel",
+    "current_password_error_message": "Le mot de passe actuel est requis",
+    "new_password_label": "Nouveau mot de passe",
+    "new_password_placeholder": "Saisissez votre nouveau mot de passe",
+    "new_password_error_message": "Le mot de passe doit contenir au moins {minLength} caractères",
+    "confirm_password_label": "Confirmer le nouveau mot de passe",
+    "confirm_password_placeholder": "Ressaisissez votre nouveau mot de passe",
+    "confirm_password_error_message": "Les mots de passe ne correspondent pas",
+    "submit_button": "Changer le mot de passe",
+    "success_toast": "Mot de passe mis à jour avec succès"
+  },
+  "ProfileNameForm": {
+    "name_label": "Nom",
+    "name_error_message": "Le nom est requis",
+    "submit_button": "Mettre à jour le profil",
+    "success_toast": "Profil mis à jour avec succès"
+  },
+  "EmailSettingsPage": {
+    "section_title": "Email",
+    "section_description": "Modifiez votre adresse email",
+    "verification_tip_title": "Vérification requise",
+    "verification_tip_description": "Saisissez votre nouvelle adresse email, puis confirmez votre identité avec votre mot de passe actuel. Nous enverrons un code de vérification pour confirmer le changement.",
+    "verification_tip_description_social": "Pour protéger votre compte, reconnectez-vous avec votre fournisseur. Vous reviendrez ici pour saisir votre nouvelle adresse email, et nous enverrons un code de vérification pour confirmer le changement.",
+    "verified_tip_description": "Saisissez votre nouvelle adresse email. Nous enverrons un code de vérification pour confirmer le changement.",
+    "current_email_label": "Email actuel"
+  },
+  "ChangeEmailForm": {
+    "current_email_label": "Email actuel",
+    "new_email_label": "Nouvel email",
+    "new_email_placeholder": "Saisissez votre nouvelle adresse email",
+    "new_email_error_message": "Saisissez une adresse email valide",
+    "current_password_label": "Mot de passe actuel",
+    "current_password_placeholder": "Saisissez votre mot de passe actuel",
+    "current_password_error_message": "Le mot de passe actuel est requis",
+    "fresh_auth_required_toast": "Pour votre sécurité, reconnectez-vous pour changer d'email.",
+    "submit_button": "Changer l'email"
+  },
+  "ChangeEmailFreshAuthButton": {
+    "security_note": "Pour votre sécurité, reconnectez-vous avant de modifier votre email."
+  },
+  "VerifyNewEmailDialog": {
+    "dialog_title": "Vérifiez votre nouvel email",
+    "dialog_description": "Saisissez le code de {otpLength} caractères envoyé à votre nouvel email\n<email></email>"
+  },
+  "VerifyNewEmailForm": {
+    "otp_input_aria_label": "Code de changement d'email",
+    "otp_error_message": "Saisissez le code de {otpLength} caractères",
+    "submit_button": "Confirmer le changement d'email",
+    "success_toast": "Adresse email mise à jour avec succès"
+  },
+  "SignInErrorHandler": {
+    "UNKNOWN_ERROR": "Une erreur s'est produite",
+    "ACCESS_DENIED": "La connexion a été annulée",
+    "ACCOUNT_NOT_LINKED": "Un compte existe déjà pour cet email. Connectez-vous avec la même méthode que vous avez utilisée auparavant."
+  },
+  "MfaSettingsPage": {
+    "disable_section_title": "Désactiver l'authentification à deux facteurs",
+    "disable_section_description": "Supprimer la couche de sécurité supplémentaire",
+    "disable_alert_description": "Votre compte est moins sécurisé sans authentification à deux facteurs.",
+    "regenerate_section_title": "Régénérer les codes de secours",
+    "regenerate_section_description": "Obtenir un nouvel ensemble de codes de secours",
+    "regenerate_alert_description": "Les nouveaux codes de secours remplaceront vos codes actuels.",
+    "enable_section_title": "Activer l'authentification à deux facteurs",
+    "enable_section_description": "Ajouter une couche de sécurité supplémentaire",
+    "enable_info_title": "Qu'est-ce que l'authentification à deux facteurs ?",
+    "enable_info_description": "L'authentification à deux facteurs protège votre compte en exigeant votre mot de passe et un code de votre application d'authentification lors de la connexion."
+  },
+  "DisableMfaForm": {
+    "current_password_label": "Mot de passe actuel",
+    "current_password_placeholder": "Saisissez votre mot de passe actuel",
+    "current_password_error_message": "Le mot de passe actuel est requis",
+    "submit_button": "Désactiver l'authentification à deux facteurs",
+    "success_toast": "Authentification à deux facteurs désactivée"
+  },
+  "EnableMfaForm": {
+    "current_password_label": "Mot de passe actuel",
+    "current_password_placeholder": "Saisissez votre mot de passe actuel",
+    "current_password_error_message": "Le mot de passe actuel est requis",
+    "current_password_description": "Saisissez votre mot de passe pour activer l'authentification à deux facteurs",
+    "submit_button": "Continuer la configuration"
+  },
+  "RegenerateMfaBackupCodesForm": {
+    "current_password_label": "Mot de passe actuel",
+    "current_password_placeholder": "Saisissez votre mot de passe actuel",
+    "current_password_error_message": "Le mot de passe actuel est requis",
+    "submit_button": "Régénérer les codes de secours",
+    "success_toast": "Codes de secours régénérés avec succès"
+  },
+  "EnableMfaDialog": {
+    "success_toast": "Authentification à deux facteurs activée"
+  },
+  "SaveBackupCodesForm": {
+    "copy_success_toast": "Codes de secours copiés dans le presse-papiers",
+    "copy_error_toast": "Impossible de copier les codes de secours dans le presse-papiers",
+    "backup_title": "Sauvegardez vos codes de secours",
+    "backup_description": "Conservez ces codes de secours dans un endroit sûr. Utilisez-en un pour vous connecter si vous perdez votre appareil d'authentification. Chaque code fonctionne une fois.",
+    "backup_copy_button": "Copier les codes de secours",
+    "saved_checkbox_label": "J'ai sauvegardé mes codes de secours dans un endroit sûr",
+    "saved_submit_button": "J'ai sauvegardé mes codes"
+  },
+  "EnableMfaTotpForm": {
+    "dialog_title": "Configurer l'authentification à deux facteurs",
+    "dialog_description": "Ouvrez votre application d'authentification, scannez le QR code, puis saisissez le code à {totpLength} chiffres pour activer l'authentification à deux facteurs.",
+    "totp_label": "Code de vérification",
+    "totp_error_message": "Saisissez le code à {totpLength} chiffres",
+    "submit_button": "Activer l'authentification à deux facteurs"
+  },
+  "UpgradeOptions": {
+    "upgrade_button_label": "Choisir ce forfait"
+  },
+  "CheckoutSuccessPage": {
+    "message_state_title": "Paiement terminé",
+    "message_state_description": "Le paiement a été traité avec succès. Merci pour votre achat.",
+    "message_state_button": "Retour à la facturation"
+  },
+  "BillingPage": {
+    "current_section_title": "Forfait actuel",
+    "current_section_description": "Consultez les détails du forfait actuel",
+    "upgrade_section_title": "Mettre à niveau le forfait",
+    "upgrade_section_description": "Comparez les forfaits pour trouver celui qui convient à votre compte"
+  },
+  "CurrentPlanDetails": {
+    "renews_on": "L'abonnement se renouvelle le {date}",
+    "cancels_on": "L'abonnement sera annulé le {date}",
+    "plan_includes": "Inclus dans ce forfait"
+  },
+  "ManageSubscriptionButton": {
+    "manage_subscription_button": "Gérer l'abonnement"
+  },
+  "DataTable": {
+    "no_results": "Aucun résultat trouvé"
+  },
+  "Sidebar": {
+    "toggle_label": "Afficher ou masquer la barre latérale"
+  },
+  "TodoListPage": {
+    "title_bar": "Liste de tâches",
+    "title_bar_description": "Créez, organisez et complétez vos tâches",
+    "add_todo_button": "Nouvelle tâche"
+  },
+  "TodoTableColumns": {
+    "open_menu": "Ouvrir le menu",
+    "title_header": "Titre",
+    "message_header": "Message",
+    "created_at_header": "Créé"
+  },
+  "TodoActions": {
+    "edit_action_label": "Modifier",
+    "delete_action_label": "Supprimer",
+    "delete_todo_success_toast": "Tâche supprimée avec succès"
+  }
+}

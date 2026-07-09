@@ -1,0 +1,533 @@
+{
+  "Index": {
+    "meta_title": "{name}: Next.js SaaS Boilerplate to launch products faster",
+    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+  },
+  "Navbar": {
+    "sign_in": "Sign in",
+    "sign_up": "Sign up",
+    "product": "Product",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "blog": "Blog",
+    "about": "About"
+  },
+  "LocaleSwitcher": {
+    "button_label": "Change language"
+  },
+  "ThemeSwitcher": {
+    "button_label": "Change theme",
+    "theme_light_label": "Light",
+    "theme_dark_label": "Dark",
+    "theme_system_label": "System"
+  },
+  "Hero": {
+    "follow_twitter": "Follow @Ixartz on Twitter",
+    "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
+    "description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS.",
+    "primary_button": "Get started",
+    "secondary_button": "Buy Next.js SaaS Boilerplate"
+  },
+  "Features": {
+    "section_subtitle": "Features",
+    "section_title": "Unlock the Full Potential of the SaaS Template",
+    "section_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS.",
+    "feature1_title": "Next.js",
+    "feature2_title": "React",
+    "feature3_title": "Tailwind CSS",
+    "feature4_title": "TypeScript",
+    "feature5_title": "Shadcn UI",
+    "feature6_title": "ESLint",
+    "feature_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+  },
+  "Pricing": {
+    "section_subtitle": "Pricing",
+    "section_title": "Unlock the Full Potential of the SaaS Template",
+    "section_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS.",
+    "button_text": "Get started"
+  },
+  "PricingPlans": {
+    "free_plan_name": "Free",
+    "premium_plan_name": "Premium",
+    "enterprise_plan_name": "Enterprise"
+  },
+  "PricingCard": {
+    "free_plan_description": "For individuals",
+    "premium_plan_description": "For small teams",
+    "enterprise_plan_description": "For industry leaders",
+    "plan_price": "${price}",
+    "plan_interval_month": "/ month",
+    "plan_interval_year": "/ year"
+  },
+  "PricingFeatures": {
+    "feature_website": "Up to {number} websites",
+    "feature_storage": "{number} GB of storage",
+    "feature_transfer": "{number} TB of transfer",
+    "feature_email_support": "Email support"
+  },
+  "FAQ": {
+    "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
+  },
+  "CTA": {
+    "title": "You are ready?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "button_text": "Buy Next.js SaaS Boilerplate"
+  },
+  "Footer": {
+    "product": "Product",
+    "docs": "Docs",
+    "blog": "Blog",
+    "community": "Community",
+    "company": "Company",
+    "terms_of_service": "Terms Of Service",
+    "privacy_policy": "Privacy Policy",
+    "footer_text": "© {year} {name}. Made with <author></author>."
+  },
+  "SignInPage": {
+    "meta_title": "Sign in",
+    "meta_description": "Securely sign in to access your account and dashboard.",
+    "card_title": "Welcome back",
+    "card_description": "Sign in to access your account",
+    "card_footer": "Don't have an account? <link>Sign up</link>",
+    "or_continue_with": "Or continue with"
+  },
+  "SignInForm": {
+    "email_label": "Email",
+    "email_placeholder": "Enter your email address",
+    "email_error_message": "Enter a valid email address",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "password_error_message": "Password is required",
+    "submit_button": "Sign in",
+    "forgot_password": "Forgot your password?"
+  },
+  "BetterAuthError": {
+    "UNKNOWN_ERROR": "Something went wrong",
+    "TOO_MANY_REQUESTS": "You sent too many requests",
+    "BAD_REQUEST": "Some information is invalid",
+    "UNAUTHORIZED": "You don't have permission to perform this action",
+    "INVALID_ROLE": "This role doesn't exist",
+    "USER_NOT_FOUND": "We couldn't find an account with that email",
+    "FAILED_TO_CREATE_USER": "We couldn't create your account",
+    "FAILED_TO_CREATE_SESSION": "We couldn't sign you in",
+    "FAILED_TO_UPDATE_USER": "We couldn't update your profile",
+    "FAILED_TO_GET_SESSION": "We couldn't verify your session",
+    "INVALID_PASSWORD": "Incorrect password",
+    "DISPOSABLE_EMAIL": "Disposable email addresses can't be used",
+    "INVALID_EMAIL": "Enter a valid email address",
+    "INVALID_EMAIL_OR_PASSWORD": "Incorrect email or password",
+    "SOCIAL_ACCOUNT_ALREADY_LINKED": "This social account is already linked to a different account",
+    "PROVIDER_NOT_FOUND": "That sign-in method isn't available",
+    "INVALID_TOKEN": "This link is invalid or expired",
+    "ID_TOKEN_NOT_SUPPORTED": "This sign-in method isn't supported",
+    "FAILED_TO_GET_USER_INFO": "We couldn't load your account details",
+    "USER_EMAIL_NOT_FOUND": "We couldn't find an email for this account",
+    "EMAIL_NOT_VERIFIED": "Email not verified",
+    "EMAIL_IS_THE_SAME": "Enter a different email address",
+    "COULDNT_UPDATE_YOUR_EMAIL": "We couldn't update your email",
+    "VALIDATION_ERROR": "Invalid form data",
+    "PASSWORD_TOO_SHORT": "Password is too short",
+    "PASSWORD_TOO_LONG": "Password is too long",
+    "USER_ALREADY_EXISTS": "User already exists",
+    "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "An account with this email already exists",
+    "EMAIL_CAN_NOT_BE_UPDATED": "Your email can't be updated right now",
+    "CREDENTIAL_ACCOUNT_NOT_FOUND": "We couldn't find a password-based account for this email",
+    "SESSION_EXPIRED": "Your session expired",
+    "FAILED_TO_UNLINK_LAST_ACCOUNT": "You can't unlink your only sign-in method",
+    "ACCOUNT_NOT_FOUND": "We couldn't find your account",
+    "USER_ALREADY_HAS_PASSWORD": "This account already has a password",
+    "OTP_EXPIRED": "Your verification code has expired",
+    "INVALID_OTP": "Incorrect verification code",
+    "TOO_MANY_ATTEMPTS": "Code invalidated due to too many attempts",
+    "OTP_NOT_ENABLED": "One-time passwords aren't enabled",
+    "OTP_HAS_EXPIRED": "Your one-time password has expired",
+    "TOTP_NOT_ENABLED": "Authenticator app isn't set up",
+    "TWO_FACTOR_NOT_ENABLED": "Two-factor authentication isn't enabled",
+    "BACKUP_CODES_NOT_ENABLED": "Backup codes aren't enabled",
+    "INVALID_BACKUP_CODE": "Incorrect backup code",
+    "INVALID_CODE": "Incorrect code",
+    "TOO_MANY_ATTEMPTS_REQUEST_NEW_CODE": "Code invalidated due to too many attempts",
+    "INVALID_TWO_FACTOR_COOKIE": "Invalid two-factor cookie",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_NEW_ORGANIZATION": "You can't create a new organization",
+    "YOU_HAVE_REACHED_THE_MAXIMUM_NUMBER_OF_ORGANIZATIONS": "You've reached the maximum number of organizations",
+    "ORGANIZATION_ALREADY_EXISTS": "Organization already exists",
+    "ORGANIZATION_SLUG_ALREADY_TAKEN": "Organization slug is already taken",
+    "ORGANIZATION_NOT_FOUND": "Organization not found",
+    "USER_IS_NOT_A_MEMBER_OF_THE_ORGANIZATION": "You're not a member of the organization",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_THIS_ORGANIZATION": "You can't update this organization",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_THIS_ORGANIZATION": "You can't delete this organization",
+    "NO_ACTIVE_ORGANIZATION": "No active organization",
+    "USER_IS_ALREADY_A_MEMBER_OF_THIS_ORGANIZATION": "You're already a member of this organization",
+    "MEMBER_NOT_FOUND": "Member not found",
+    "ROLE_NOT_FOUND": "Role not found",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_NEW_TEAM": "You can't create a new team",
+    "TEAM_ALREADY_EXISTS": "Team already exists",
+    "TEAM_NOT_FOUND": "Team not found",
+    "YOU_CANNOT_LEAVE_THE_ORGANIZATION_AS_THE_ONLY_OWNER": "You can't leave the organization as the owner",
+    "YOU_CANNOT_LEAVE_THE_ORGANIZATION_WITHOUT_AN_OWNER": "You can't leave the organization without an owner",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_THIS_MEMBER": "You can't delete this member",
+    "YOU_ARE_NOT_ALLOWED_TO_INVITE_USERS_TO_THIS_ORGANIZATION": "You can't invite users to this organization",
+    "USER_IS_ALREADY_INVITED_TO_THIS_ORGANIZATION": "This user is already invited to this organization",
+    "INVITATION_NOT_FOUND": "Invitation not found",
+    "YOU_ARE_NOT_THE_RECIPIENT_OF_THE_INVITATION": "You're not the recipient of this invitation",
+    "EMAIL_VERIFICATION_REQUIRED_BEFORE_ACCEPTING_OR_REJECTING_INVITATION": "Verify your email before accepting or declining this invitation",
+    "OWNER_ROLE_CANNOT_BE_ASSIGNED": "Owner role cannot be assigned",
+    "YOU_ARE_NOT_ALLOWED_TO_CANCEL_THIS_INVITATION": "You can't cancel this invitation",
+    "INVITER_IS_NO_LONGER_A_MEMBER_OF_THE_ORGANIZATION": "Inviter is no longer a member of the organization",
+    "YOU_ARE_NOT_ALLOWED_TO_INVITE_USER_WITH_THIS_ROLE": "You can't invite a user with this role",
+    "FAILED_TO_RETRIEVE_INVITATION": "We couldn't retrieve the invitation",
+    "YOU_HAVE_REACHED_THE_MAXIMUM_NUMBER_OF_TEAMS": "You've reached the maximum number of teams",
+    "UNABLE_TO_REMOVE_LAST_TEAM": "You can't remove the last team",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_THIS_MEMBER": "You can't update this member",
+    "ORGANIZATION_MEMBERSHIP_LIMIT_REACHED": "Organization membership limit reached",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_TEAMS_IN_THIS_ORGANIZATION": "You can't create teams in this organization",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_TEAMS_IN_THIS_ORGANIZATION": "You can't delete teams in this organization",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_THIS_TEAM": "You can't update this team",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_THIS_TEAM": "You can't delete this team",
+    "INVITATION_LIMIT_REACHED": "Invitation limit reached",
+    "TEAM_MEMBER_LIMIT_REACHED": "Team member limit reached",
+    "USER_IS_NOT_A_MEMBER_OF_THE_TEAM": "You're not a member of the team",
+    "YOU_CAN_NOT_ACCESS_THE_MEMBERS_OF_THIS_TEAM": "You can't list the members of this team",
+    "YOU_DO_NOT_HAVE_AN_ACTIVE_TEAM": "You don't have an active team",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_NEW_TEAM_MEMBER": "You can't create a new team member",
+    "YOU_ARE_NOT_ALLOWED_TO_REMOVE_A_TEAM_MEMBER": "You can't remove a team member",
+    "YOU_ARE_NOT_ALLOWED_TO_ACCESS_THIS_ORGANIZATION": "You can't access this organization as an owner",
+    "YOU_ARE_NOT_A_MEMBER_OF_THIS_ORGANIZATION": "You're not a member of this organization",
+    "MISSING_AC_INSTANCE": "Dynamic Access Control requires a configured AC instance",
+    "YOU_MUST_BE_IN_AN_ORGANIZATION_TO_CREATE_A_ROLE": "You must be in an organization to create a role",
+    "YOU_ARE_NOT_ALLOWED_TO_CREATE_A_ROLE": "You can't create a role",
+    "YOU_ARE_NOT_ALLOWED_TO_UPDATE_A_ROLE": "You can't update a role",
+    "YOU_ARE_NOT_ALLOWED_TO_DELETE_A_ROLE": "You can't delete a role",
+    "YOU_ARE_NOT_ALLOWED_TO_READ_A_ROLE": "You can't view this role",
+    "YOU_ARE_NOT_ALLOWED_TO_LIST_A_ROLE": "You can't list roles",
+    "YOU_ARE_NOT_ALLOWED_TO_GET_A_ROLE": "You can't get this role",
+    "TOO_MANY_ROLES": "This organization has too many roles",
+    "INVALID_RESOURCE": "The provided permission includes an invalid resource",
+    "ROLE_NAME_IS_ALREADY_TAKEN": "That role name is already taken",
+    "CANNOT_DELETE_A_PRE_DEFINED_ROLE": "You can't delete a predefined role",
+    "SUBSCRIPTION_NOT_FOUND": "Subscription not found",
+    "SUBSCRIPTION_PLAN_NOT_FOUND": "Subscription plan not found",
+    "ALREADY_SUBSCRIBED_PLAN": "You're already subscribed to this plan",
+    "UNABLE_TO_CREATE_CUSTOMER": "Unable to create customer",
+    "FAILED_TO_FETCH_PLANS": "Failed to fetch plans",
+    "EMAIL_VERIFICATION_REQUIRED": "Email verification is required before you can subscribe to a plan",
+    "SUBSCRIPTION_NOT_ACTIVE": "Subscription is not active",
+    "SUBSCRIPTION_NOT_SCHEDULED_FOR_CANCELLATION": "Subscription is not scheduled for cancellation",
+    "ORGANIZATION_HAS_ACTIVE_SUBSCRIPTION": "This organization has an active subscription"
+  },
+  "SignUpPage": {
+    "meta_title": "SaaS Template: Sign up",
+    "meta_description": "Create your account to access your dashboard.",
+    "card_title": "Create Account",
+    "card_description": "Sign up to get started",
+    "card_footer": "Already have an account? <link>Sign in</link>",
+    "or_continue_with": "Or continue with"
+  },
+  "SignUpForm": {
+    "name_label": "Name",
+    "name_placeholder": "Enter your name",
+    "name_error_message": "Name is required",
+    "email_label": "Email",
+    "email_placeholder": "Enter your email address",
+    "email_error_message": "Enter a valid email address",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "password_error_message": "Password must be at least {minLength} characters long",
+    "submit_button": "Create account"
+  },
+  "VerifyEmailPage": {
+    "meta_title": "SaaS Template: Verify Email",
+    "meta_description": "Verify your email address to complete your account setup.",
+    "card_title": "Verify your email",
+    "card_description": "Enter the {otpLength}-character code sent to your email\n<email></email>"
+  },
+  "VerifyEmailFooter": {
+    "card_footer": "Didn't receive the code? <button>Resend</button>",
+    "resend_success_toast": "Verification code resent successfully"
+  },
+  "VerifyEmailForm": {
+    "otp_input_aria_label": "Enter verification code",
+    "otp_error_message": "Enter the {otpLength}-character code",
+    "submit_button": "Verify email"
+  },
+  "ForgotPasswordPage": {
+    "meta_title": "Forgot password",
+    "meta_description": "Reset your password to regain access to your account.",
+    "card_title": "Forgot your password?",
+    "card_description": "Receive a code to reset your password",
+    "card_footer": "Remember your password? <link>Sign in</link>"
+  },
+  "ForgotPasswordForm": {
+    "email_label": "Email",
+    "email_placeholder": "Enter your email address",
+    "email_error_message": "Enter a valid email address",
+    "submit_button": "Send reset code"
+  },
+  "ResetPasswordPage": {
+    "meta_title": "Reset password",
+    "meta_description": "Create a new password using the reset code sent to your email.",
+    "card_title": "Reset your password",
+    "card_description": "Enter the {otpLength}-character reset code sent to your email\n<email></email>",
+    "card_footer": "Didn't receive the code? <link>Resend</link>"
+  },
+  "ResetPasswordForm": {
+    "otp_error_message": "Enter the {otpLength}-character reset code",
+    "email_label": "Email",
+    "password_label": "New Password",
+    "password_placeholder": "Enter your new password",
+    "password_error_message": "Password must be at least {minLength} characters long",
+    "submit_button": "Reset password",
+    "success_toast": "Your password has been reset"
+  },
+  "MfaPage": {
+    "meta_title": "Two-factor authentication",
+    "meta_description": "Enter your authentication code to continue.",
+    "card_title": "Two-factor authentication",
+    "card_description": "Enter the {totpLength}-digit code from your authenticator app",
+    "card_footer": "Use another method? <link>Backup code</link>"
+  },
+  "MfaTotpForm": {
+    "totp_error_message": "Enter the {totpLength}-digit code",
+    "submit_button": "Verify code"
+  },
+  "MfaBackupPage": {
+    "meta_title": "Backup code",
+    "meta_description": "Use a backup code to continue.",
+    "card_title": "Use a backup code",
+    "card_description": "Enter one of your saved backup codes",
+    "card_footer": "Use another method? <link>Authenticator app</link>"
+  },
+  "MfaBackupForm": {
+    "code_label": "Backup code",
+    "code_placeholder": "Enter a backup code",
+    "code_error_message": "Backup code is required",
+    "submit_button": "Verify code"
+  },
+  "DashboardLayout": {
+    "meta_title": "SaaS Template Dashboard",
+    "meta_description": "Monitor activity and manage your todos, billing, and settings in one secure dashboard."
+  },
+  "DashboardIndexPage": {
+    "message_state_title": "Let's get started",
+    "message_state_description": "Customize this page by editing the file at <code>dashboard/page.tsx</code>.",
+    "message_state_button": "Buy Next.js SaaS Boilerplate"
+  },
+  "AppSidebar": {
+    "main_section": "Main navigation",
+    "home": "Home",
+    "todos": "Todos",
+    "billing": "Billing",
+    "support": "Support",
+    "feedback": "Feedback"
+  },
+  "UserMenu": {
+    "manage_account": "Account settings",
+    "logout": "Sign out"
+  },
+  "SocialAuthButtons": {
+    "continue_with": "Continue with {provider}",
+    "google": "Google",
+    "github": "GitHub"
+  },
+  "EditTodoPage": {
+    "title_bar": "Edit todo",
+    "title_bar_description": "Review and update this todo"
+  },
+  "AddTodoPage": {
+    "title_bar": "Add todo",
+    "title_bar_description": "Enter details to create a todo"
+  },
+  "AddTodoForm": {
+    "success_toast": "Todo created successfully",
+    "submit_button": "Create todo"
+  },
+  "EditTodoForm": {
+    "success_toast": "Todo updated successfully",
+    "submit_button": "Save changes"
+  },
+  "TodoForm": {
+    "title_label": "Title",
+    "title_description": "Enter a short, clear title",
+    "title_placeholder": "e.g., Pay rent",
+    "title_error_message": "Title is required",
+    "message_title": "Message",
+    "message_description": "Enter any context or steps to complete this todo",
+    "message_placeholder": "e.g., Transfer funds by the 3rd",
+    "message_error_message": "Message is required"
+  },
+  "SettingsLayout": {
+    "account_section_label": "Account",
+    "profile_item": "Profile",
+    "email_item": "Email",
+    "security_section_label": "Security",
+    "password_item": "Password",
+    "mfa_item": "Two-factor authentication",
+    "billing_item": "Billing"
+  },
+  "ProfileSettingsPage": {
+    "section_title": "Profile",
+    "section_description": "Review your profile",
+    "email_label": "Email",
+    "email_description": "Your email is used for sign-in and notifications. To change your email, visit <link>email settings</link>."
+  },
+  "PasswordSettingsPage": {
+    "section_title": "Password",
+    "section_description": "Update your password",
+    "security_tip_title": "Security tip",
+    "security_tip_description": "Use a unique password you don't use for other accounts. Consider using a password manager to generate and store strong passwords."
+  },
+  "ChangePasswordForm": {
+    "current_password_label": "Current password",
+    "current_password_placeholder": "Enter your current password",
+    "current_password_error_message": "Current password is required",
+    "new_password_label": "New password",
+    "new_password_placeholder": "Enter your new password",
+    "new_password_error_message": "Password must be at least {minLength} characters long",
+    "confirm_password_label": "Confirm new password",
+    "confirm_password_placeholder": "Re-enter your new password",
+    "confirm_password_error_message": "Passwords do not match",
+    "submit_button": "Change password",
+    "success_toast": "Password updated successfully"
+  },
+  "ProfileNameForm": {
+    "name_label": "Name",
+    "name_error_message": "Name is required",
+    "submit_button": "Update profile",
+    "success_toast": "Profile updated successfully"
+  },
+  "EmailSettingsPage": {
+    "section_title": "Email",
+    "section_description": "Change your email address",
+    "verification_tip_title": "Verification required",
+    "verification_tip_description": "Enter your new email address, then confirm your identity with your current password. We'll send a verification code to confirm the change.",
+    "verification_tip_description_social": "To protect your account, sign in again with your provider. You'll return here to enter your new email address, and we'll send a verification code to confirm the change.",
+    "verified_tip_description": "Enter your new email address. We'll send a verification code to confirm the change.",
+    "current_email_label": "Current email"
+  },
+  "ChangeEmailForm": {
+    "current_email_label": "Current email",
+    "new_email_label": "New email",
+    "new_email_placeholder": "Enter your new email address",
+    "new_email_error_message": "Enter a valid email address",
+    "current_password_label": "Current password",
+    "current_password_placeholder": "Enter your current password",
+    "current_password_error_message": "Current password is required",
+    "fresh_auth_required_toast": "For your security, sign in again to change your email.",
+    "submit_button": "Change email"
+  },
+  "ChangeEmailFreshAuthButton": {
+    "security_note": "For your security, sign in again before changing your email."
+  },
+  "VerifyNewEmailDialog": {
+    "dialog_title": "Verify your new email",
+    "dialog_description": "Enter the {otpLength}-character code we sent to your new email\n<email></email>"
+  },
+  "VerifyNewEmailForm": {
+    "otp_input_aria_label": "Email change code",
+    "otp_error_message": "Enter the {otpLength}-character code",
+    "submit_button": "Confirm email change",
+    "success_toast": "Email address updated successfully"
+  },
+  "SignInErrorHandler": {
+    "UNKNOWN_ERROR": "Something went wrong",
+    "ACCESS_DENIED": "Sign-in was cancelled",
+    "ACCOUNT_NOT_LINKED": "An account already exists for this email. Sign in with the same method you used before."
+  },
+  "MfaSettingsPage": {
+    "disable_section_title": "Turn off two-factor authentication",
+    "disable_section_description": "Remove the extra layer of security",
+    "disable_alert_description": "Your account is less secure without two-factor authentication.",
+    "regenerate_section_title": "Regenerate backup codes",
+    "regenerate_section_description": "Get a new set of backup codes",
+    "regenerate_alert_description": "New backup codes replace your current codes.",
+    "enable_section_title": "Turn on two-factor authentication",
+    "enable_section_description": "Add an extra layer of security",
+    "enable_info_title": "What is two-factor authentication?",
+    "enable_info_description": "Two-factor authentication protects your account by requiring your password and a code from your authenticator app at sign-in."
+  },
+  "DisableMfaForm": {
+    "current_password_label": "Current password",
+    "current_password_placeholder": "Enter your current password",
+    "current_password_error_message": "Current password is required",
+    "submit_button": "Turn off two-factor authentication",
+    "success_toast": "Two-factor authentication turned off"
+  },
+  "EnableMfaForm": {
+    "current_password_label": "Current password",
+    "current_password_placeholder": "Enter your current password",
+    "current_password_error_message": "Current password is required",
+    "current_password_description": "Enter your password to turn on two-factor authentication",
+    "submit_button": "Continue setup"
+  },
+  "RegenerateMfaBackupCodesForm": {
+    "current_password_label": "Current password",
+    "current_password_placeholder": "Enter your current password",
+    "current_password_error_message": "Current password is required",
+    "submit_button": "Regenerate backup codes",
+    "success_toast": "Backup codes regenerated successfully"
+  },
+  "EnableMfaDialog": {
+    "success_toast": "Two-factor authentication turned on"
+  },
+  "SaveBackupCodesForm": {
+    "copy_success_toast": "Backup codes copied to your clipboard",
+    "copy_error_toast": "Couldn't copy backup codes to your clipboard",
+    "backup_title": "Save your backup codes",
+    "backup_description": "Keep these backup codes in a secure location. Use one to sign in if you lose your authentication device. Each code works once.",
+    "backup_copy_button": "Copy backup codes",
+    "saved_checkbox_label": "I have saved my backup codes in a secure location",
+    "saved_submit_button": "I saved my codes"
+  },
+  "EnableMfaTotpForm": {
+    "dialog_title": "Set up two-factor authentication",
+    "dialog_description": "Open your authenticator app, scan the QR code, then enter the {totpLength}-digit code to enable two-factor authentication.",
+    "totp_label": "Verification code",
+    "totp_error_message": "Enter the {totpLength}-digit code",
+    "submit_button": "Turn on two-factor authentication"
+  },
+  "UpgradeOptions": {
+    "upgrade_button_label": "Choose this plan"
+  },
+  "CheckoutSuccessPage": {
+    "message_state_title": "Payment complete",
+    "message_state_description": "Payment was processed successfully. Thank you for your purchase.",
+    "message_state_button": "Back to billing"
+  },
+  "BillingPage": {
+    "current_section_title": "Current plan",
+    "current_section_description": "View details of the current plan",
+    "upgrade_section_title": "Upgrade the plan",
+    "upgrade_section_description": "Compare plans to find the right fit for your account"
+  },
+  "CurrentPlanDetails": {
+    "renews_on": "Subscription renews on {date}",
+    "cancels_on": "Subscription will be canceled on {date}",
+    "plan_includes": "Included in this plan"
+  },
+  "ManageSubscriptionButton": {
+    "manage_subscription_button": "Manage subscription"
+  },
+  "DataTable": {
+    "no_results": "No results found"
+  },
+  "Sidebar": {
+    "toggle_label": "Toggle sidebar"
+  },
+  "TodoListPage": {
+    "title_bar": "Todo List",
+    "title_bar_description": "Create, organize, and complete todos",
+    "add_todo_button": "New todo"
+  },
+  "TodoTableColumns": {
+    "open_menu": "Open menu",
+    "title_header": "Title",
+    "message_header": "Message",
+    "created_at_header": "Created"
+  },
+  "TodoActions": {
+    "edit_action_label": "Edit",
+    "delete_action_label": "Delete",
+    "delete_todo_success_toast": "Todo deleted successfully"
+  }
+}
